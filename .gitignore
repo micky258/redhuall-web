@@ -1,0 +1,10 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
