@@ -16,8 +16,8 @@ export function Logo(_: { dark?: boolean } = {}) {
   // URL del logo real de la empresa. Si el archivo de Drive está compartido
   // como "Cualquier persona con el enlace puede ver", esta URL cargará.
   // También puedes reemplazarla por un enlace de ImgBB o similar.
-  const logoUrl =
-    "https://drive.google.com/thumbnail?id=1bwiVahjx-s3g6wmWou5pQJVuMymGIBpp&sz=w400";
+  const logoUrl = "/logo.png";
+
 
   const [imgError, setImgError] = useState(false);
 
